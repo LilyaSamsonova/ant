@@ -1,0 +1,191 @@
+.round1_1 {
+  left: 20%;
+  top: 33%;
+  position: absolute;
+  display: inline-block;
+  animation: bl1 3s infinite ease-in-out;
+  animation-delay: 1s;
+filter: blur(20px);
+}
+ .round1_2 {
+   left: 23%;
+   top: 35%;
+   position: absolute;
+   display: inline-block;
+   animation: bl1 3s infinite ease-in-out;
+   animation-delay: 1s;
+filter: blur(20px);
+ }
+ .round1_3 {
+   left: 25%;
+   top: 37%;
+   position: absolute;
+   display: inline-block;
+   animation: bl1 3s infinite ease-in-out;
+   animation-delay: 1s;
+filter: blur(20px);
+ }
+ .round1_4 {
+   left: 27%;
+   top: 43%;
+   position: absolute;
+   display: inline-block;
+   animation: bl1 3s infinite ease-in-out;
+   animation-delay: 1s;
+filter: blur(20px);
+ }
+ @keyframes bl1 {
+    from {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+  }
+  }
+  .round2_1 {
+    left: 55%;
+    top: 0%;
+    position: absolute;
+    display: inline-block;
+    animation: bl2 3s infinite ease-in-out;
+    animation-delay: 1s;
+    filter: blur(20px);
+  }
+  .round2_2 {
+    left: 63%;
+    top: -10%;
+    position: absolute;
+    display: inline-block;
+    animation: bl2 3s infinite ease-in-out;
+    animation-delay: 1s;
+    filter: blur(20px);
+  }
+  .round2_3 {
+    left: 65%;
+    top: -15%;
+    position: absolute;
+    display: inline-block;
+    animation: bl2 3s infinite ease-in-out;
+    animation-delay: 1s;
+    filter: blur(20px);
+  }
+  @keyframes bl2 {
+     from {
+       transform: scale(1);
+     }
+     50% {
+       transform: scale(1.1);
+     }
+     to {
+       transform: scale(1);
+   }
+   }
+   .round3_1 {
+     left: 60%;
+     top: 30%;
+     position: absolute;
+     display: inline-block;
+     animation: bl3 3s infinite ease-in-out;
+     animation-delay: 1s;
+     filter: blur(20px);
+   }
+   .round3_2 {
+     left: 70%;
+     top: 48%;
+     position: absolute;
+     display: inline-block;
+     animation: bl3 3s infinite ease-in-out;
+     animation-delay: 1s;
+     filter: blur(20px);
+   }
+
+   @keyframes bl3 {
+      from {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(0.8);
+      }
+      to {
+        transform: scale(1);
+    }
+    }
+    .round4_1 {
+      left: 48%;
+      top: 40%;
+      position: absolute;
+      display: inline-block;
+      animation: bl4 3s infinite ease-in-out;
+      animation-delay: 1s;
+      filter: blur(20px);
+    }
+    .round4_2 {
+      left: 50%;
+      top: 44%;
+      position: absolute;
+      display: inline-block;
+      animation: bl4 3s infinite ease-in-out;
+      animation-delay: 1s;
+      filter: blur(20px);
+    }
+    .round4_3 {
+      left: 53%;
+      top: 47%;
+      position: absolute;
+      display: inline-block;
+      animation: bl4 3s infinite ease-in-out;
+      animation-delay: 1s;
+      filter: blur(20px);
+    }
+    @keyframes bl4 {
+       from {
+         transform: scale(1);
+       }
+       50% {
+         transform: scale(0.8);
+       }
+       to {
+         transform: scale(1);
+     }
+     }
+     .round5_1 {
+       left: 20%;
+       top: 0%;
+       position: absolute;
+       display: inline-block;
+       animation: bl4 3s infinite ease-in-out;
+       animation-delay: 1s;
+       filter: blur(20px);
+     }
+     .round5_2 {
+       left: 20%;
+       top: -2%;
+       position: absolute;
+       display: inline-block;
+       animation: bl4 3s infinite ease-in-out;
+       animation-delay: 1s;
+       filter: blur(20px);
+     }
+     .round5_3 {
+       left: 20%;
+       top: -3%;
+       position: absolute;
+       display: inline-block;
+       animation: bl5 3s infinite ease-in-out;
+       animation-delay: 1s;
+       filter: blur(20px);
+     }
+     @keyframes bl5 {
+        from {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.8);
+        }
+        to {
+          transform: scale(1);
+      }
+      }
